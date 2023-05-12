@@ -1,0 +1,103 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.carrossel {
+    margin-top: 5px;
+}
+
+#teste {
+    border-radius: 35px;
+}
+
+.info {
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid #dbdbdb;
+    background-color: #f7f7f7;
+}
+
+.info h1 {
+    text-align: left;
+    margin-top: 5px;
+}
+
+.info p {
+    text-align: center;
+}
+
+.cards {
+    margin-top: 10px;
+    width: 150px;
+    background-image: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid black;
+}
+
+.card_grupo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info2 h1 {
+    margin-top: 10px;
+}
+
+.info2 p {
+    text-align: center;
+}
+
+.imgss {
+    height: 150px;
+    background-image: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.btn1 {
+    height: 30px;
+    width: 80px;
+    background-color: #d4d4d4;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.info2 {
+    text-align: center;
+}
+
+.money {
+    padding: 15px;
+    border: 1px solid #dbdbdb;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+footer p {
+    text-align: center;
+    align-items: center;
+    color: black;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+
+footer {
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+/* versão pc */
+
+@media (min-width: 1000px) {
+    
+}
