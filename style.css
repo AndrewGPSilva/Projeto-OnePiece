@@ -35,7 +35,7 @@ html {
 
 .cards {
     margin-top: 10px;
-    width: 150px;
+    width: 300px;
     background-image: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -57,7 +57,7 @@ html {
 }
 
 .imgss {
-    height: 150px;
+    
     background-image: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -65,8 +65,8 @@ html {
 }
 
 .btn1 {
-    height: 30px;
-    width: 80px;
+    height: 25px;
+    width: 50px;
     background-color: #d4d4d4;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -96,8 +96,6 @@ footer {
     margin-bottom: 0px;
 }
 
-/* versão pc */
-
-@media (min-width: 1000px) {
-    
+#view2 {
+    display: none;
 }
