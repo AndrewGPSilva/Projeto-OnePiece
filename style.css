@@ -49,7 +49,7 @@ html {
 
 .card_grupo {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .info2 h1 {
@@ -129,6 +129,26 @@ footer {
 }
 
 #view6 {
+    display: none;
+}
+
+#view7 {
+    display: none;
+}
+
+#view8 {
+    display: none;
+}
+
+#view9 {
+    display: none;
+}
+
+#view10 {
+    display: none;
+}
+
+#view11 {
     display: none;
 }
 

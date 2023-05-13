@@ -4,6 +4,11 @@ const btn3 = document.getElementById('btn-3');
 const btn4 = document.getElementById('btn-4');
 const btn5 = document.getElementById('btn-5');
 const btn6 = document.getElementById('btn-6');
+const btn7 = document.getElementById('btn-7');
+const btn8 = document.getElementById('btn-8');
+const btn9 = document.getElementById('btn-9');
+const btn10 = document.getElementById('btn-10');
+const btn11 = document.getElementById('btn-11');
 
 const pag1 = document.getElementById('view1');
 const pag2 = document.getElementById('view2');
@@ -11,6 +16,11 @@ const pag3 = document.getElementById('view3');
 const pag4 = document.getElementById('view4');
 const pag5 = document.getElementById('view5');
 const pag6 = document.getElementById('view6');
+const pag7 = document.getElementById('view7');
+const pag8 = document.getElementById('view8');
+const pag9 = document.getElementById('view9');
+const pag10 = document.getElementById('view10');
+const pag11 = document.getElementById('view11');
 
 btn1.addEventListener('click', () => {
     pag2.style.display = 'none';
