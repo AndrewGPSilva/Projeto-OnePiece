@@ -78,9 +78,14 @@ html {
 .btn1 {
     height: 25px;
     width: 50px;
-    background-color: #d4d4d4;
+    background-color: rgb(197, 197, 197);
     border-radius: 5px;
     margin-bottom: 10px;
+}
+
+#btn-1 {
+    background-color: red;
+    color: white;
 }
 
 .info2 {
@@ -127,10 +132,26 @@ footer {
     display: none;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
 
     #view1 {
         display: flex;
+    }
+
+    #teste {
+        height: 300px;
+    }
+
+    .info2 p {
+        font-size: 1.5em;
+    }
+
+    .info p {
+        font-size: 1.5em;
+    }
+
+    .info-card {
+        height: 175px;
     }
 
 }

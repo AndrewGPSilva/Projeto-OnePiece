@@ -19,6 +19,18 @@ btn1.addEventListener('click', () => {
     pag4.style.display = 'none';
     pag5.style.display = 'none';
     pag6.style.display = 'none';
+    btn1.style.background = 'red';
+    btn1.style.color = 'white';
+    btn2.style.background = 'rgb(197, 197, 197)';
+    btn2.style.color = 'black';
+    btn3.style.background = 'rgb(197, 197, 197)';
+    btn3.style.color = 'black';
+    btn4.style.background = 'rgb(197, 197, 197)';
+    btn4.style.color = 'black';
+    btn5.style.background = 'rgb(197, 197, 197)';
+    btn5.style.color = 'black';
+    btn6.style.background = 'rgb(197, 197, 197)';
+    btn6.style.color = 'black';
 });
 
 btn2.addEventListener('click', () => {
@@ -28,6 +40,18 @@ btn2.addEventListener('click', () => {
     pag4.style.display = 'none';
     pag5.style.display = 'none';
     pag6.style.display = 'none';
+    btn2.style.background = 'red';
+    btn2.style.color = 'white';
+    btn1.style.background = 'rgb(197, 197, 197)';
+    btn1.style.color = 'black';
+    btn3.style.background = '';
+    btn3.style.color = 'black';
+    btn4.style.background = '';
+    btn4.style.color = 'black';
+    btn5.style.background = '';
+    btn5.style.color = 'black';
+    btn6.style.background = '';
+    btn6.style.color = 'black';
 });
 
 btn3.addEventListener('click', () => {
@@ -37,6 +61,18 @@ btn3.addEventListener('click', () => {
     pag4.style.display = 'none';
     pag5.style.display = 'none';
     pag6.style.display = 'none';
+    btn3.style.background = 'red';
+    btn3.style.color = 'white';
+    btn2.style.background = '';
+    btn2.style.color = 'black';
+    btn1.style.background = 'rgb(197, 197, 197)';
+    btn1.style.color = 'black';
+    btn4.style.background = '';
+    btn4.style.color = 'black';
+    btn5.style.background = '';
+    btn5.style.color = 'black';
+    btn6.style.background = '';
+    btn6.style.color = 'black';
 });
 
 btn4.addEventListener('click', () => {
@@ -46,6 +82,18 @@ btn4.addEventListener('click', () => {
     pag4.style.display = 'flex';
     pag5.style.display = 'none';
     pag6.style.display = 'none';
+    btn4.style.background = 'red';
+    btn4.style.color = 'white';
+    btn2.style.background = '';
+    btn2.style.color = 'black';
+    btn3.style.background = '';
+    btn3.style.color = 'black';
+    btn1.style.background = 'rgb(197, 197, 197)';
+    btn1.style.color = 'black';
+    btn5.style.background = '';
+    btn5.style.color = 'black';
+    btn6.style.background = '';
+    btn6.style.color = 'black';
 });
 
 btn5.addEventListener('click', () => {
@@ -55,6 +103,18 @@ btn5.addEventListener('click', () => {
     pag4.style.display = 'none';
     pag5.style.display = 'flex';
     pag6.style.display = 'none';
+    btn5.style.background = 'red';
+    btn5.style.color = 'white';
+    btn2.style.background = '';
+    btn2.style.color = 'black';
+    btn3.style.background = '';
+    btn3.style.color = 'black';
+    btn4.style.background = '';
+    btn4.style.color = 'black';
+    btn1.style.background = 'rgb(197, 197, 197)';
+    btn1.style.color = 'black';
+    btn6.style.background = '';
+    btn6.style.color = 'black';
 });
 
 btn6.addEventListener('click', () => {
@@ -64,4 +124,16 @@ btn6.addEventListener('click', () => {
     pag4.style.display = 'none';
     pag5.style.display = 'none';
     pag6.style.display = 'flex';
+    btn6.style.background = 'red';
+    btn6.style.color = 'white';
+    btn2.style.background = '';
+    btn2.style.color = 'black';
+    btn3.style.background = '';
+    btn3.style.color = 'black';
+    btn4.style.background = '';
+    btn4.style.color = 'black';
+    btn5.style.background = '';
+    btn5.style.color = 'black';
+    btn1.style.background = 'rgb(197, 197, 197)';
+    btn1.style.color = 'black';
 });
