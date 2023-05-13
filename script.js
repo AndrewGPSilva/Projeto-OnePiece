@@ -14,7 +14,7 @@ const pag6 = document.getElementById('view6');
 
 btn1.addEventListener('click', () => {
     pag2.style.display = 'none';
-    pag1.style.display = 'block';
+    pag1.style.display = 'flex';
     pag3.style.display = 'none';
     pag4.style.display = 'none';
     pag5.style.display = 'none';
@@ -22,7 +22,7 @@ btn1.addEventListener('click', () => {
 });
 
 btn2.addEventListener('click', () => {
-    pag2.style.display = 'block';
+    pag2.style.display = 'flex';
     pag1.style.display = 'none';
     pag3.style.display = 'none';
     pag4.style.display = 'none';
@@ -33,7 +33,7 @@ btn2.addEventListener('click', () => {
 btn3.addEventListener('click', () => {
     pag2.style.display = 'none';
     pag1.style.display = 'none';
-    pag3.style.display = 'block';
+    pag3.style.display = 'flex';
     pag4.style.display = 'none';
     pag5.style.display = 'none';
     pag6.style.display = 'none';
@@ -43,7 +43,7 @@ btn4.addEventListener('click', () => {
     pag2.style.display = 'none';
     pag1.style.display = 'none';
     pag3.style.display = 'none';
-    pag4.style.display = 'block';
+    pag4.style.display = 'flex';
     pag5.style.display = 'none';
     pag6.style.display = 'none';
 });
@@ -53,7 +53,7 @@ btn5.addEventListener('click', () => {
     pag1.style.display = 'none';
     pag3.style.display = 'none';
     pag4.style.display = 'none';
-    pag5.style.display = 'block';
+    pag5.style.display = 'flex';
     pag6.style.display = 'none';
 });
 
@@ -63,5 +63,5 @@ btn6.addEventListener('click', () => {
     pag3.style.display = 'none';
     pag4.style.display = 'none';
     pag5.style.display = 'none';
-    pag6.style.display = 'block';
+    pag6.style.display = 'flex';
 });

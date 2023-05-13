@@ -41,6 +41,10 @@ html {
     background-position: center;
     background-size: contain;
     border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .card_grupo {
@@ -121,4 +125,12 @@ footer {
 
 #view6 {
     display: none;
+}
+
+@media (min-width: 1000px) {
+
+    #view1 {
+        display: flex;
+    }
+
 }
